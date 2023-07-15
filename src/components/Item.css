@@ -1,0 +1,41 @@
+.item {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 20px;
+  gap: 16px;
+  align-items: center;
+  background-color: lightgreen;
+  border-radius: 8px;
+  position: relative;
+}
+
+.item p {
+  flex: 1;
+}
+
+.item span {
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.item span:first-child {
+  color: #fff;
+}
+
+.item span.green {
+  color: green;
+}
+
+.item span:last-child {
+  position: absolute;
+  top: -12px;
+  right: 8px;
+}
+
+.item span:last-child:hover {
+  color: red;
+}
+
+.line {
+  text-decoration: line-through;
+}

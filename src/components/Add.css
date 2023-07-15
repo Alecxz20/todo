@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding: 0 8px;
+  margin-top: 20px;
+  margin-bottom: 32px;
+}
+
+textarea {
+  border: 1px solid green;
+  outline: none;
+  padding: 6px 10px;
+}
+
+button {
+  background-color: green;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+}
